@@ -49,12 +49,17 @@
 }
 
 .top-social img {
-	width: 30px;
+	width: 40px;
 	transition: 0.3s ease-in-out;
+	border-radius: 20px;
+    box-shadow: 1px 1px 3px 3px #22fd22;
+
 }
 
 .top-social img:hover {
 	transform: scale(1.07);
+	border-radius: 50px;
+    box-shadow: 1px 1px 3px 3px #2CAB8D;
 }
 
 .sub-menu {

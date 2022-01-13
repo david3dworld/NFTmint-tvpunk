@@ -27,7 +27,6 @@ export const MyNavBar = () => {
     history.push(index)
     setIsMenu(false)
   }
-
   useEffect(() => {
     WebFont.load({
       google: {
@@ -42,8 +41,7 @@ export const MyNavBar = () => {
         ],
       },
     });
-  }, []);
- 
+  }, []); 
   return (
     <>
       <div className='top-bar' id='navBar' style={{fontFamily: 'VT323'}}>
