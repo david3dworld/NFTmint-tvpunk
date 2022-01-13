@@ -123,7 +123,7 @@ export const MintButtonContainer = styled.div`
     }
     > div {
       z-index: 100;
-      background-color: #FFD029;
+      background-color: #5EC285;
       border-radius: 55px;
       display: flex;
       align-items: center;
@@ -131,13 +131,15 @@ export const MintButtonContainer = styled.div`
       width: 200px;
       height: 200px;
       position: relative;
-      border-bottom: 10px solid #E99311;
+      border-bottom: 10px solid #087984;
  
       img {
         &:first-child {
-          width: 64%;
-          height: 64%;
+          width: 74%;
+          height: 74%;
           object-fit: cover;
+          border-radius: 35px;
+          box-shadow: 1px 1px 10px 10px #22fd22;        
         }
         &:last-child {
           position: absolute;
@@ -205,7 +207,7 @@ export const MintButtonContainer = styled.div`
 export const Button = styled.button`
   width: 200px;
   cursor: pointer;
-  background-color: #FFD029;
+  background-color: #5EC285;
   border-radius: 27px;
   font-size: 42px;
   color: #161131;
@@ -219,7 +221,7 @@ export const Button = styled.button`
   z-index:1111;
 
   &:hover {
-    background-color: #b79212;
+    background-color: #087984;
   }
 
   @media (min-width: 1200px) {
@@ -322,8 +324,9 @@ export const ContentWrapper = styled.div`
 
         img {
           width: 26px;
-          height: 26px;
-          border-radius: 50%;
+          height: 26px;          
+          border-radius: 44px;
+          box-shadow: 1px 1px 10px 10px #22fd22;
           object-fit: cover;
         }
         p {
@@ -340,6 +343,8 @@ export const ContentWrapper = styled.div`
         margin-top: 80px;
         width: 100%;
         max-width: 500px;
+        border-radius: 44px;
+          box-shadow: 1px 1px 10px 10px #22fd22;
       }
     }
   }
@@ -355,6 +360,8 @@ export const ContentWrapper = styled.div`
             height: 36px;
             border-radius: 50%;
             object-fit: cover;
+            border-radius: 44px;
+            box-shadow: 1px 1px 5px 5px #22fd22;
           }
           p {
             color: white;
@@ -382,6 +389,8 @@ export const ContentWrapper = styled.div`
         display: initial;
         > img {
           max-width: initial;
+          border-radius: 44px;
+          box-shadow: 1px 1px 10px 10px #22fd22;
         }
       }
     }
@@ -419,7 +428,7 @@ export const BottomTextContainer = styled.div`
   p {
     margin: 0px;
     max-width: 1400px;
-    color: #FFD029;
+    color: #5EC285;
     font-size: 24px;
     font-weight: bold;
     text-align: center;

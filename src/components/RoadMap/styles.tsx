@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const RoadMapContainer = styled.div`
   position: relative;
-  background: linear-gradient(0deg, #63D9FF 0%, #8CD5FF 42.64%, #3DA5FF 100%);
+  background: linear-gradient(0deg, #00928D 0%, #2CAB8D 42.64%, #5EC285 100%);
   padding-top: 50px;
 
   @media (min-width: 576px) {
@@ -33,7 +33,7 @@ export const TopBackground = styled.div`
   top: 0;
   width: 100%;
   height: 190px;
-  background: linear-gradient(180deg, #161131 0%, #161131 0.01%, #4DACFF 100%);
+ 
 `
 
 export const BannerWrapper = styled.div`
@@ -102,13 +102,14 @@ export const BannerContent = styled.div`
 `
 
 export const RoadMapHeadWrapper = styled.div`
+  
   position: absolute;
   display: none;
   justify-content: center;
   align-items: center;
   width: 100%;
   left: 0;
-  top: -112px;
+  top: -112px;    
   z-index: 2;
 
   @media (min-width: 576px) {
@@ -118,6 +119,8 @@ export const RoadMapHeadWrapper = styled.div`
   > img {
     width: 257px;
     height: 256px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px 10px #22fd22;
   }
 `
 
@@ -127,7 +130,8 @@ export const MobileHead = styled.div`
   align-items: center;
   position: relative;
   margin-bottom: 25px;
-  flex-direction: column;
+  flex-direction: column;  
+  
 
   @media (min-width: 576px) {
     display: none;
@@ -145,24 +149,23 @@ export const MobileHead = styled.div`
     }
   }
 `
-
 export const MonthDescription = styled.div`
   display: flex;
   padding: 0 15px;
   position: relative;
-  min-height: 210px;
-  padding-top: 50px;
-  padding-bottom: 25px;
+  min-height: 60px;
+  padding-top: 30px;
+  padding-bottom: 15px;
   flex-direction: column;
 
   @media (min-width: 576px) {
-    padding-top: 265px;
+    padding-top: 65px;
   }
 
   @media (min-width: 993px) {
     padding: 0 55px;
     flex-direction: row;
-    padding-top: 90px;
+    padding-top: 40px;
   }
 `
 
@@ -202,42 +205,42 @@ export const MonthBoxWrapper = styled.div`
 
   > p {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     text-transform: uppercase;
-    color: #2473B8;
+    color: #2F4858;
     margin: 0;
     text-align: center;
 
     @media (min-width: 1200px) {
-      font-size: 35px;
+      font-size: 20px;
     }
 
     @media (min-width: 1440px) {
-      font-size: 47.0803px;
+      font-size: 22.0803px;
     }
   }
 `
 
 export const MonthBox = styled.div`
-  height: 96px;
-  background: #288CE1;
+  height: 26px;
+  background: #256071;
   border-radius: 64px;
-  padding: 18px 28px;
+  padding: 18px 58px;
   display: flex;
   align-items: center;
 
   > p {
     font-weight: bold;
-    font-size: 28px;
+    font-size: 20px;
     color: #FFFFFF;
     margin: 0;
 
     @media (min-width: 1200px) {
-      font-size: 43px;
+      font-size: 33px;
     }
 
     @media (min-width: 1440px) {
-      font-size: 58px;
+      font-size: 38px;
     }
   }
 `
@@ -267,7 +270,7 @@ export const LeftTextWrapper = styled.div`
 
   @media (min-width: 993px) {
     margin-top: 0;
-    padding-right: 138px;
+    padding-right: 38px;
     width: 50%;
     justify-content: flex-start;
   }
@@ -283,17 +286,23 @@ export const TextWrappper = styled.div`
     height: 46.5px;
     min-width: 46.5px;
     margin-right: 15px;
+    border-radius: 44px;
+    box-shadow: 1px 1px 3px 3px #22fd22;
+}
+
+
   }
 
   p {
     font-weight: bold;
-    font-size: 33px;
+    font-size: 23px;
     text-transform: uppercase;
     color: #FFFFFF;
     margin: 0;
 
     @media (min-width: 1440px) {
-      font-size: 44px;
+      font-size: 24px;
+      padding-top:13px;
     }
   }
 `

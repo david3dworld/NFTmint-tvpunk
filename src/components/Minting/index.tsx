@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import WebFont from "webfontloader";
 import {
   Container,
   HeroContainer,
@@ -11,9 +12,24 @@ import {
 } from './styles'
 
 export const Minting = () => {
+  useEffect(() => {
+    WebFont.load({
+      google: {
+        families: [
+          "Butcherman",
+          "Fuzzy Bubbles",
+          "Slackey",
+          "Lobster",
+          "Secular One",
+          "VT323",
+          "Press Start 2P",
+        ],
+      },
+    });
+  }, []);
   return (
-    <Container bgimage='/assets/images/minting-background.png'>
-      <HeroContainer>
+    <Container bgimage='/assets/images/minting-background.png' >
+      <HeroContainer style={{fontFamily: 'VT323'}}>
         <div>
           <MintButtonContainer>
             <div className='image-container'>
@@ -26,7 +42,7 @@ export const Minting = () => {
                 <img src='/assets/images/question.png' alt='' />
               </div>
             </div>
-            <Button>
+            <Button style={{fontFamily: 'VT323'}}>
               Mint
             </Button>
           </MintButtonContainer>
@@ -50,7 +66,7 @@ export const Minting = () => {
           </div>
         </HeroLeftContainer>
       </HeroContainer>
-      <MainContentContainer>
+      <MainContentContainer style={{fontFamily: 'VT323'}}>
         <h1>HOW TO MINT</h1>
         <ContentWrapper>
           <div>
@@ -80,7 +96,7 @@ export const Minting = () => {
           </div>
         </ContentWrapper>
       </MainContentContainer>
-      <BottomTextContainer>
+      <BottomTextContainer style={{fontFamily: 'VT323'}}>
         <p>Share your NFT in Twitter, Discord and other social networks. Don’t forget to add tags:</p>
         <p>#SolKitties #NFT #SOL</p>
       </BottomTextContainer>

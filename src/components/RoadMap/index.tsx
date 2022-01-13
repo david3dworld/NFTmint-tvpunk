@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import WebFont from "webfontloader";
 import {
   RoadMapContainer,
   TopBackground,
@@ -24,8 +25,10 @@ import {
   MobileHead
 } from './styles'
 
+
 export const RoadMap = () => {
 
+  
   const imageList = [
     { id: 1, title: '1', url: 'assets/images/1.png' },
     { id: 2, title: '2', url: 'assets/images/2.png' },
@@ -43,10 +46,25 @@ export const RoadMap = () => {
     { id: 14, title: '11', url: 'assets/images/4.png' },
     { id: 15, title: '11', url: 'assets/images/5.png' }
   ]
+  useEffect(() => {
+    WebFont.load({
+      google: {
+        families: [
+          "Butcherman",
+          "Fuzzy Bubbles",
+          "Slackey",
+          "Lobster",
+          "Secular One",
+          "VT323",
+          "Press Start 2P",
+        ],
+      },
+    });
+  }, []);
 
   return (
     <>
-      <RoadMapContainer id='roadmap'>
+      <RoadMapContainer id='roadmap' style={{fontFamily: 'VT323'}}>
         <TopBackground />
         <VerticalLineWrapper>
           <Line />
@@ -67,15 +85,11 @@ export const RoadMap = () => {
         <MonthDescription>
           <LineImageWrapper>
             <img src='assets/images/line-background.png' alt='line-background' />
-          </LineImageWrapper>
-          <CenterImageWrapper>
-            <img src='assets/images/line-image1.png' alt='line-image1' />
-          </CenterImageWrapper>
+          </LineImageWrapper>          
           <LeftMonthWrapper>
             <MonthBoxWrapper>
               <MonthBox>
-                <p>JANUARY 2O22</p>
-                <img src='assets/images/right-arrow.png' alt='right-arrow' style={{ marginLeft: '15px' }} />
+                <p>Stage 1</p>                                
               </MonthBox>
               <p>Invasiton starting</p>
             </MonthBoxWrapper>
@@ -84,58 +98,34 @@ export const RoadMap = () => {
             <div>
               <TextWrappper>
                 <img src='assets/images/dot.png' alt='dot' />
-                <p>TV PUNKS INVAsION PLANS PREPRATIOn</p>
-              </TextWrappper>
-              <TextWrappper>
-                <img src='assets/images/dot.png' alt='dot' />
-                <p>TV PUNKS INVAsION PLANS PREPRATIOn</p>
-              </TextWrappper>
-              <TextWrappper>
-                <img src='assets/images/dot.png' alt='dot' />
-                <p>TV PUNKS INVAsION PLANS PREPRATIOn</p>
-              </TextWrappper>
+                <p>Create twitter, tease those who follow about stealth drop </p>
+              </TextWrappper>              
             </div>
           </RightTextWrapper>
         </MonthDescription>
-        <MonthDescription>
-          <CenterImageWrapper>
-            <img src='assets/images/line-image2.png' alt='line-image2' />
-          </CenterImageWrapper>
+        <MonthDescription>          
           <LeftTextWrapper>
             <div>
               <TextWrappper>
                 <img src='assets/images/dot.png' alt='dot' />
-                <p>TV PUNKS INVAsION PLANS PREPRATIOn</p>
-              </TextWrappper>
-              <TextWrappper>
-                <img src='assets/images/dot.png' alt='dot' />
-                <p>TV PUNKS INVAsION PLANS PREPRATIOn</p>
-              </TextWrappper>
-              <TextWrappper>
-                <img src='assets/images/dot.png' alt='dot' />
-                <p>TV PUNKS INVAsION PLANS PREPRATIOn</p>
-              </TextWrappper>
+                <p>Launch giveaway of 1 eth, give 24 hrs warning for stealth drop.</p>
+              </TextWrappper>              
             </div>
           </LeftTextWrapper>
           <RightMonthWrapper>
             <MonthBoxWrapper>
               <MonthBox>
-                <p>JANUARY 2O22</p>
-                <img src='assets/images/right-arrow.png' alt='right-arrow' style={{ marginLeft: '15px' }} />
+                <p>Stage 2</p>              
               </MonthBox>
               <p>Invasiton starting</p>
             </MonthBoxWrapper>
           </RightMonthWrapper>
         </MonthDescription>
-        <MonthDescription>
-          <CenterImageWrapper>
-            <img src='assets/images/line-image3.png' alt='line-image3' />
-          </CenterImageWrapper>
+        <MonthDescription>          
           <LeftMonthWrapper>
             <MonthBoxWrapper>
               <MonthBox>
-                <p>NOVEMBER 2O21</p>
-                <img src='assets/images/right-arrow.png' alt='right-arrow' style={{ marginLeft: '15px' }} />
+                <p>Stage 3</p>              
               </MonthBox>
               <p>Invasiton starting</p>
             </MonthBoxWrapper>
@@ -144,58 +134,34 @@ export const RoadMap = () => {
             <div>
               <TextWrappper>
                 <img src='assets/images/dot.png' alt='dot' />
-                <p>TV PUNKS INVAsION PLANS PREPRATIOn</p>
-              </TextWrappper>
-              <TextWrappper>
-                <img src='assets/images/dot.png' alt='dot' />
-                <p>TV PUNKS INVAsION PLANS PREPRATIOn</p>
-              </TextWrappper>
-              <TextWrappper>
-                <img src='assets/images/dot.png' alt='dot' />
-                <p>TV PUNKS INVAsION PLANS PREPRATIOn</p>
-              </TextWrappper>
+                <p>Release stealth mint with a tweet one hour prior, alerting everybody (first 500 mints will be free!).</p>
+              </TextWrappper>              
             </div>
           </RightTextWrapper>
         </MonthDescription>
-        <MonthDescription>
-          <CenterImageWrapper>
-            <img src='assets/images/line-image4.png' alt='line-image4' />
-          </CenterImageWrapper>
+        <MonthDescription>          
           <LeftTextWrapper>
             <div>
               <TextWrappper>
                 <img src='assets/images/dot.png' alt='dot' />
-                <p>TV PUNKS INVAsION PLANS PREPRATIOn</p>
-              </TextWrappper>
-              <TextWrappper>
-                <img src='assets/images/dot.png' alt='dot' />
-                <p>TV PUNKS INVAsION PLANS PREPRATIOn</p>
-              </TextWrappper>
-              <TextWrappper>
-                <img src='assets/images/dot.png' alt='dot' />
-                <p>TV PUNKS INVAsION PLANS PREPRATIOn</p>
-              </TextWrappper>
+                <p>Launch Tv Punks!</p>
+              </TextWrappper>              
             </div>
           </LeftTextWrapper>
           <RightMonthWrapper>
             <MonthBoxWrapper>
               <MonthBox>
-                <p>DECEMBER 2O22</p>
-                <img src='assets/images/right-arrow.png' alt='right-arrow' style={{ marginLeft: '15px' }} />
+                <p>Stage 4</p>              
               </MonthBox>
               <p>Invasiton starting</p>
             </MonthBoxWrapper>
           </RightMonthWrapper>
         </MonthDescription>
-        <MonthDescription>
-          <CenterImageWrapper>
-            <img src='assets/images/line-image5.png' alt='line-image5' />
-          </CenterImageWrapper>
+        <MonthDescription>          
           <LeftMonthWrapper>
             <MonthBoxWrapper>
               <MonthBox>
-                <p>JANUART 2O22</p>
-                <img src='assets/images/right-arrow.png' alt='right-arrow' style={{ marginLeft: '15px' }} />
+                <p>Stage 5</p>              
               </MonthBox>
               <p>Invasiton starting</p>
             </MonthBoxWrapper>
@@ -204,18 +170,28 @@ export const RoadMap = () => {
             <div>
               <TextWrappper>
                 <img src='assets/images/dot.png' alt='dot' />
-                <p>TV PUNKS INVAsION PLANS PREPRATIOn</p>
-              </TextWrappper>
-              <TextWrappper>
-                <img src='assets/images/dot.png' alt='dot' />
-                <p>TV PUNKS INVAsION PLANS PREPRATIOn</p>
-              </TextWrappper>
-              <TextWrappper>
-                <img src='assets/images/dot.png' alt='dot' />
-                <p>TV PUNKS INVAsION PLANS PREPRATIOn</p>
-              </TextWrappper>
+                <p>Create discord, and form a community! </p>
+              </TextWrappper>              
             </div>
-          </RightTextWrapper>
+          </RightTextWrapper>          
+        </MonthDescription>
+        <MonthDescription>          
+          <LeftTextWrapper>
+            <div>
+              <TextWrappper>
+                <img src='assets/images/dot.png' alt='dot' />
+                <p>More eth giveaways to punks holders!</p>
+              </TextWrappper>              
+            </div>
+          </LeftTextWrapper>
+          <RightMonthWrapper>
+            <MonthBoxWrapper>
+              <MonthBox>
+                <p>Stage 6</p>              
+              </MonthBox>
+              <p>Invasiton starting</p>
+            </MonthBoxWrapper>
+          </RightMonthWrapper>
         </MonthDescription>
         <FooterImageWrapper>
           <img src='assets/images/2022.png' alt='2022' />

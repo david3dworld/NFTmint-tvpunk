@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import WebFont from "webfontloader";
 import {
   FooterContainer,
   SocialIconWrapper,
@@ -27,10 +28,25 @@ export const Footer = () => {
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [isArrow])
+  useEffect(() => {
+    WebFont.load({
+      google: {
+        families: [
+          "Butcherman",
+          "Fuzzy Bubbles",
+          "Slackey",
+          "Lobster",
+          "Secular One",
+          "VT323",
+          "Press Start 2P",
+        ],
+      },
+    });
+  }, []);
 
   return (
     <>
-      <FooterContainer>
+      <FooterContainer style={{fontFamily: 'VT323'}}>
         <SocialIconWrapper>
           <img src='assets/images/twitter.png' alt='twitter' onClick={() => redirectSite('https://twitter.com/')} />
           <img src='assets/images/discord.png' alt='discord' onClick={() => redirectSite('https://discord.com/')} />

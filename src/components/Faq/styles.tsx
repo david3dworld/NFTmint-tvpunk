@@ -61,5 +61,7 @@ export const ImageWrapper = styled.div`
   img {
     width: 162px;
     min-width: 162px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px 10px #22fd22;
   }
 `

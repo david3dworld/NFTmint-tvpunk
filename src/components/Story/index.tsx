@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import WebFont from "webfontloader";
 import {
   StoryContainer,
   UserListWrapper,
@@ -15,8 +16,23 @@ export const Story = () => {
     { id: 3, name: '3', url: 'assets/images/user3.png', color: '#3248', type: 'common', sex: 'female', typeColor: '#F9D054', sexColor: '#58B4F6' },
     { id: 4, name: '4', url: 'assets/images/user4.png', color: '#3248', type: 'common', sex: 'female', typeColor: '#F9D054', sexColor: '#58B4F6' },
   ]
+  useEffect(() => {
+    WebFont.load({
+      google: {
+        families: [
+          "Butcherman",
+          "Fuzzy Bubbles",
+          "Slackey",
+          "Lobster",
+          "Secular One",
+          "VT323",
+          "Press Start 2P",
+        ],
+      },
+    });
+  }, []);
   return (
-    <StoryContainer id='story'>
+    <StoryContainer id='story'style={{fontFamily: 'VT323'}}>
       <h1>Story</h1>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
       <UserListWrapper>
