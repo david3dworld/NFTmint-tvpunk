@@ -6,17 +6,17 @@ export const FaqContainer = styled.div`
 
   > h1 {
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
     color: #000000;
     margin: 0;
     text-transform: uppercase;
 
     @media (min-width: 993px) {
-      font-size: 72px;
+      font-size: 52px;
     }
 
     @media (min-width: 1440px) {
-      font-size: 96.2558px;
+      font-size: 66.2558px;
     }
   }
 
@@ -62,6 +62,6 @@ export const ImageWrapper = styled.div`
     width: 162px;
     min-width: 162px;
     border-radius: 50px;
-    box-shadow: 1px 1px 10px 10px #22fd22;
+    box-shadow: 1px 1px 5px 5px #22fd22;
   }
 `
