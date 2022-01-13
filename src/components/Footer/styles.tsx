@@ -19,9 +19,11 @@ export const SocialIconWrapper = styled.div`
   justify-content: center;
 
   img {
+    width: 50px;
     margin: 0 10px;
-    cursor: pointer;
+    cursor: pointer;    
     transition: all 0.3s ease-in-out;
+    border-radius: 50px;    
 
     &:hover {
       transform: scale(1.07);
