@@ -6,7 +6,7 @@ export const FaqContainer = styled.div`
 
   > h1 {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 35px;
     color: #000000;
     margin: 0;
     text-transform: uppercase;
@@ -21,14 +21,14 @@ export const FaqContainer = styled.div`
   }
 
   @media (min-width: 993px) {
-    padding: 30px 85px 0 85px;
+    padding: 60px 85px 0 85px;
   }
 `
 
 export const TextBox = styled.div`
   background: #FFFDEB;
   border-radius: 51px;
-  padding: 33px 27px;
+  padding: 53px 57px;
   margin: 25px 0;
 
   > p {
@@ -37,11 +37,10 @@ export const TextBox = styled.div`
     margin: 0;
 
     @media (min-width: 993px) {
-      font-size: 32px;
+      font-size: 27px;
     }
-    @media (min-width: 1440px) {
-      font-size: 32px;
-      font-size: 43.5653px;
+    @media (min-width: 1440px) {      
+      font-size: 33.5653px;
     }
 
     &:first-child {

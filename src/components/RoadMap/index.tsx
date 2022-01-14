@@ -104,22 +104,22 @@ export const RoadMap = () => {
           </RightTextWrapper>
         </MonthDescription>
         <MonthDescription>          
-          <LeftTextWrapper>
-            <div>
-              <TextWrappper>
-                <img src='assets/images/dot.png' alt='dot' />
-                <p>Launch giveaway of 1 eth, give 24 hrs warning for stealth drop.</p>
-              </TextWrappper>              
-            </div>
-          </LeftTextWrapper>
-          <RightMonthWrapper>
+        <LeftMonthWrapper>
             <MonthBoxWrapper>
               <MonthBox>
                 <p>Stage 2</p>              
               </MonthBox>
               <p>Invasiton starting</p>
             </MonthBoxWrapper>
-          </RightMonthWrapper>
+          </LeftMonthWrapper>
+          <RightTextWrapper>
+            <div>
+              <TextWrappper>
+                <img src='assets/images/dot.png' alt='dot' />
+                <p>Launch giveaway of 1 eth, give 24 hrs warning for stealth drop.</p>
+              </TextWrappper>              
+            </div>
+          </RightTextWrapper>          
         </MonthDescription>
         <MonthDescription>          
           <LeftMonthWrapper>
@@ -140,22 +140,23 @@ export const RoadMap = () => {
           </RightTextWrapper>
         </MonthDescription>
         <MonthDescription>          
-          <LeftTextWrapper>
-            <div>
-              <TextWrappper>
-                <img src='assets/images/dot.png' alt='dot' />
-                <p>Launch Tv Punks!</p>
-              </TextWrappper>              
-            </div>
-          </LeftTextWrapper>
-          <RightMonthWrapper>
+        <LeftMonthWrapper>
             <MonthBoxWrapper>
               <MonthBox>
                 <p>Stage 4</p>              
               </MonthBox>
               <p>Invasiton starting</p>
             </MonthBoxWrapper>
-          </RightMonthWrapper>
+          </LeftMonthWrapper>
+          <RightTextWrapper>
+            <div>
+              <TextWrappper>
+                <img src='assets/images/dot.png' alt='dot' />
+                <p>Launch Tv Punks!</p>
+              </TextWrappper>              
+            </div>
+          </RightTextWrapper>
+          
         </MonthDescription>
         <MonthDescription>          
           <LeftMonthWrapper>
@@ -175,23 +176,23 @@ export const RoadMap = () => {
             </div>
           </RightTextWrapper>          
         </MonthDescription>
-        <MonthDescription>          
-          <LeftTextWrapper>
-            <div>
-              <TextWrappper>
-                <img src='assets/images/dot.png' alt='dot' />
-                <p>More eth giveaways to punks holders!</p>
-              </TextWrappper>              
-            </div>
-          </LeftTextWrapper>
-          <RightMonthWrapper>
+        <MonthDescription>   
+        <LeftMonthWrapper>
             <MonthBoxWrapper>
               <MonthBox>
                 <p>Stage 6</p>              
               </MonthBox>
               <p>Invasiton starting</p>
             </MonthBoxWrapper>
-          </RightMonthWrapper>
+          </LeftMonthWrapper>       
+          <RightTextWrapper>
+            <div>
+              <TextWrappper>
+                <img src='assets/images/dot.png' alt='dot' />
+                <p>More eth giveaways to punks holders!</p>
+              </TextWrappper>              
+            </div>
+          </RightTextWrapper>          
         </MonthDescription>
         <FooterImageWrapper>
           <img src='assets/images/2022.png' alt='2022' />

@@ -225,7 +225,7 @@ export const MonthBox = styled.div`
   height: 26px;
   background: #256071;
   border-radius: 64px;
-  padding: 18px 58px;
+  padding: 18px 158px;
   display: flex;
   align-items: center;
 

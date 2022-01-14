@@ -95,13 +95,13 @@ export const HomeHero = () => {
             <span>Join our DISCORD SERVER</span>
           </a>
         </div>  
-        <div className='sale-image'>
+        {/* <div className='sale-image'>
           <div className='sale-image-wrapper'>
             <img src='assets/part1/SolKittie_0096.png' className='nft-top-section-img sale-image1' alt='image1' />
             <img src='assets/part1/SolKittie_0097.png' className='nft-top-section-img sale-image2' alt='image2' />
             <img src='assets/part1/SolKittie_0094.png' className='nft-top-section-img sale-image3' alt='image3'/>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )

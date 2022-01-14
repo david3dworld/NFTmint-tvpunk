@@ -148,21 +148,19 @@
 }
 
 .sale-image1 {
-  width: 282px;
+  width: 141px;
   position: absolute;
-  left: 0px;
-  top: -180px;
+  left: 0px;  
 }
 
 .sale-image2 {
-  width: 282px;
-  position: absolute;
-  top: 180px;
+  width: 141px;
+  position: absolute;  
   right: 0px;
 }
 
 .sale-image3 {
-  width: 282px;
+  width: 141px;
   position: absolute;
   top: 0px;
   left: 0px;
