@@ -12,20 +12,22 @@ export const StoryContainer = styled.div`
 
   > h1 {
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
     color: #FFD029;
     margin-top: 0;
     margin-bottom: 32px;
     margin-left: 0px;
 
     @media (min-width: 993px) {
-      font-size: 80px;
+      font-size: 60px;
       margin-left: 23px;
+      margin-left: 100px;
     }
 
     @media (min-width: 1440px) {
-      font-size: 106.154px;
-      line-height: 145px;
+      font-size: 86.154px;
+      line-height: 135px;
+      margin-left: 120px;
     }
   }
 
@@ -41,8 +43,8 @@ export const StoryContainer = styled.div`
       padding: 0 57px;
     }
     @media (min-width: 1440px) {
-      font-size: 43.5653px;
-      padding: 0 104px 0 90px;
+      font-size: 33.5653px;
+      padding: 0 154px 0 120px;
     }
   }
 `

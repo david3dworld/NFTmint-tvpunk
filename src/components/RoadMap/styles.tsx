@@ -2,7 +2,8 @@ import styled from 'styled-components'
 
 export const RoadMapContainer = styled.div`
   position: relative;
-  background: linear-gradient(0deg, #00928D 0%, #2CAB8D 42.64%, #5EC285 100%);
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+ background-blend-mode: multiply;
   padding-top: 50px;
 
   @media (min-width: 576px) {
@@ -234,13 +235,16 @@ export const MonthBox = styled.div`
     font-size: 20px;
     color: #FFFFFF;
     margin: 0;
+    align-items: center;
 
     @media (min-width: 1200px) {
       font-size: 33px;
+      align-items: center;
     }
 
     @media (min-width: 1440px) {
       font-size: 38px;
+      align-items: center;
     }
   }
 `
@@ -351,9 +355,10 @@ export const FooterImageWrapper = styled.div`
 
   img {
     width: 100%;
-    
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px 10px #22fd22;
     @media (min-width: 576px) {
-      width: 80%;
+      width: 70%;
     }
 
     @media (min-width: 1200px) {
