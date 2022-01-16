@@ -195,7 +195,7 @@ export const RoadMap = () => {
           </RightTextWrapper>          
         </MonthDescription>
         <FooterImageWrapper>
-          <img src='assets/images/2022.png' alt='2022' />
+          <img src='assets/images/tvroadmap.gif' alt='2022' />
           <FooterBannerWrapper>
             <FooterBanner>
               <p>

@@ -59,7 +59,7 @@ export const Minting = () => {
             </div>
           </div>
           <div>
-            <h2>Remining Kitties</h2>
+            <h2>Remining TVPunks</h2>
             <div>
               <span>2391</span>
             </div>
@@ -98,7 +98,7 @@ export const Minting = () => {
       </MainContentContainer>
       <BottomTextContainer style={{fontFamily: 'VT323'}}>
         <p>Share your NFT in Twitter, Discord and other social networks. Don’t forget to add tags:</p>
-        <p>#SolKitties #NFT #SOL</p>
+        <p>#SolTVPunks #NFT #SOL</p>
       </BottomTextContainer>
     </Container>
   )
