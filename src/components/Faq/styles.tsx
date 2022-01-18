@@ -17,11 +17,12 @@ export const FaqContainer = styled.div`
 
     @media (min-width: 1440px) {
       font-size: 66.2558px;
+      padding: 30px 45px 0 85px;
     }
   }
 
   @media (min-width: 993px) {
-    padding: 60px 85px 0 85px;
+    padding: 30px 45px 0 85px;
   }
 `
 

@@ -401,13 +401,15 @@ export const FooterBanner = styled.div`
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    padding: 0px 130px;
 
     @media (min-width: 993px) {
       font-size: 28px;
     }
 
-    @media (min-width: 993px) {
+    @media (min-width: 1440px) {
       font-size: 40px;
+      align-items: center;
     }
   }
 `

@@ -11,10 +11,10 @@ import {
 
 export const Story = () => {
   const userList = [
-    { id: 1, name: '1', url: 'assets/images/user1.png', color: '#3248', type: 'common', sex: 'female', typeColor: '#F9D054', sexColor: '#F88771' },
-    { id: 2, name: '2', url: 'assets/images/user2.png', color: '#3248', type: 'rare', sex: 'female', typeColor: '#E44DFF', sexColor: '#58B4F6' },
-    { id: 3, name: '3', url: 'assets/images/user3.png', color: '#3248', type: 'common', sex: 'female', typeColor: '#F9D054', sexColor: '#58B4F6' },
-    { id: 4, name: '4', url: 'assets/images/user4.png', color: '#3248', type: 'common', sex: 'female', typeColor: '#F9D054', sexColor: '#58B4F6' },
+    { id: 1, name: '1', url: 'assets/images/user1.png', color: '#3248', type: 'common', sex: 'male', typeColor: '#F9D054', sexColor: '#F88771' },
+    { id: 2, name: '2', url: 'assets/images/user2.png', color: '#3248', type: 'rare', sex: 'male', typeColor: '#E44DFF', sexColor: '#58B4F6' },
+    { id: 3, name: '3', url: 'assets/images/user3.png', color: '#3248', type: 'common', sex: 'male', typeColor: '#F9D054', sexColor: '#58B4F6' },
+    { id: 4, name: '4', url: 'assets/images/user4.png', color: '#3248', type: 'common', sex: 'male', typeColor: '#F9D054', sexColor: '#58B4F6' },
   ]
   useEffect(() => {
     WebFont.load({

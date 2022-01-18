@@ -98,7 +98,7 @@ export const RoadMap = () => {
             <div>
               <TextWrappper>
                 <img src='assets/images/dot.png' alt='dot' />
-                <p>Create twitter, tease those who follow about stealth drop </p>
+                <p>Create Twitter, Gain followers and tease followers about stealth drop</p>
               </TextWrappper>              
             </div>
           </RightTextWrapper>
@@ -116,7 +116,7 @@ export const RoadMap = () => {
             <div>
               <TextWrappper>
                 <img src='assets/images/dot.png' alt='dot' />
-                <p>Launch giveaway of 1 eth, give 24 hrs warning for stealth drop.</p>
+                <p> Launch stealth drop</p>
               </TextWrappper>              
             </div>
           </RightTextWrapper>          
@@ -134,7 +134,7 @@ export const RoadMap = () => {
             <div>
               <TextWrappper>
                 <img src='assets/images/dot.png' alt='dot' />
-                <p>Release stealth mint with a tweet one hour prior, alerting everybody (first 500 mints will be free!).</p>
+                <p>Giveaway, 5 Tv Punks holders will recieve 1 eth each!</p>
               </TextWrappper>              
             </div>
           </RightTextWrapper>
@@ -152,7 +152,7 @@ export const RoadMap = () => {
             <div>
               <TextWrappper>
                 <img src='assets/images/dot.png' alt='dot' />
-                <p>Launch Tv Punks!</p>
+                <p>Create private discord community for 'Tv Punks' holders</p>
               </TextWrappper>              
             </div>
           </RightTextWrapper>
@@ -171,35 +171,17 @@ export const RoadMap = () => {
             <div>
               <TextWrappper>
                 <img src='assets/images/dot.png' alt='dot' />
-                <p>Create discord, and form a community! </p>
+                <p>Tv Punks holders will receive a cheaper mint for all future drops </p>
               </TextWrappper>              
             </div>
           </RightTextWrapper>          
-        </MonthDescription>
-        <MonthDescription>   
-        <LeftMonthWrapper>
-            <MonthBoxWrapper>
-              <MonthBox>
-                <p>Stage 6</p>              
-              </MonthBox>
-              <p>Invasiton starting</p>
-            </MonthBoxWrapper>
-          </LeftMonthWrapper>       
-          <RightTextWrapper>
-            <div>
-              <TextWrappper>
-                <img src='assets/images/dot.png' alt='dot' />
-                <p>More eth giveaways to punks holders!</p>
-              </TextWrappper>              
-            </div>
-          </RightTextWrapper>          
-        </MonthDescription>
+        </MonthDescription>        
         <FooterImageWrapper>
           <img src='assets/images/tvroadmap.gif' alt='2022' />
           <FooterBannerWrapper>
             <FooterBanner>
               <p>
-              The invading TV PUNKS want to capture the gaming Industry!
+              Tv punks, kicking it since 2022!
               </p> 
             </FooterBanner>
           </FooterBannerWrapper>
